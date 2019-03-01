@@ -15,6 +15,15 @@ var currentTheme = 2;
 var RestartEnable = true;
 
 
+var all_images = new Array();
+
+all_images[0] = new Image();
+all_images[0].src = "../Images/MineGame/flagB.png";
+
+all_images[1] = new Image();
+all_images[1].src = "../Images/MineGame/Qmark.png";
+
+
 function CreateMap() {
     Map = new Array(rowNum);
     for (var i = 0; i < rowNum; i++) {
@@ -192,13 +201,13 @@ function IdentifyTheButton(r, c, event) {
         if (Mark[r][c] == 0) {
             // remove class of start of button  
             document.getElementById("MainTable").rows[r].cells[c].classList.add("p-0");
-            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../../Images/MineGame/flagB.png");
+            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", all_images[0].src);
             Mark[r][c] = 1;
         }
         else if (Mark[r][c] == 1) {
             // remove class of start of button  
-            document.getElementById("MainTable").rows[r].cells[c].classList.add("p-0")
-            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../../Images/MineGame/Qmark.png");
+            document.getElementById("MainTable").rows[r].cells[c].classList.add("p-0");
+            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", all_images[1].src);
             Mark[r][c] = 2;
         }
         else if (Mark[r][c] == 2) {
