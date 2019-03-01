@@ -2,7 +2,6 @@
     $('#menchIcon').attr("src", "Images/Mench1.png");
     $('#menchIcon').attr("src", "Images/Mench0.png");
 
-
     $('#MineIcon').attr("src", "Images/Bomb2.png");
     $('#MineIcon').attr("src", "Images/Bomb1.png");
 
