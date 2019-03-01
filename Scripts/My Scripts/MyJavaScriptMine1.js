@@ -23,6 +23,16 @@ all_images[0].src = "../Images/MineGame/flagB.png";
 all_images[1] = new Image();
 all_images[1].src = "../Images/MineGame/Qmark.png";
 
+all_images[2] = new Image();
+all_images[2].src = "../Images/MineGame/freeBomb.png";
+
+all_images[3] = new Image();
+all_images[3].src = "../Images/MineGame/flagG.png";
+
+all_images[4] = new Image();
+all_images[4].src = "../Images/MineGame/flagR.png";
+
+
 
 function CreateMap() {
     Map = new Array(rowNum);
@@ -152,15 +162,15 @@ function GameOver() {
 		        document.getElementById("MainTable").rows[i].cells[j].classList.add("p-0");
 		        document.getElementById("MainTable").rows[i].cells[j].classList.add("explosion");
 		        if (Mark[i][j] == 0) {
-		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src", "../../Images/MineGame/freeBomb.png");
+		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src", all_images[2].src);
 		        }
 		        else if (Mark[i][j] == 1) {
-		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src", "../../Images/MineGame/flagG.png");
+		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src", all_images[3].src);
 		        }
 		    }
 		    else {
 		        if (Mark[i][j] == 1) {
-		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src", "../../Images/MineGame/flagR.png");
+		            document.getElementById("MainTable").rows[i].cells[j].childNodes[0].setAttribute("src",all_images[4].src);
 		        }
 		    }
         }
