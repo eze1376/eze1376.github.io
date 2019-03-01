@@ -1,0 +1,211 @@
+﻿body {
+    background: linear-gradient(to bottom right, #003366,  #4FD5D6, #003366);
+    background-attachment:fixed;
+    /*background-image: url(../../Images/MineGame/freeBomb.png);*/
+}
+
+.intro{
+    background-color:red;
+}
+
+.explosion{
+    background-color:red;
+}
+
+.number{
+    /*background-color:#999;*/
+    background-color:#ccc;
+
+}
+
+.backgroundButton{
+    /*background-color:#ccc;*/
+    background-color:transparent;
+}
+
+.imageOnBoard{
+    width:32px;
+    height:auto;
+}
+
+.btn{
+     display:table-cell;
+}
+
+#MainTable {
+    border-collapse: separate;
+}
+
+.result{
+  overflow: hidden;
+  margin:10px auto;
+  width:80%;
+}
+
+.button:hover {
+    cursor:pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#NumberOfRest{
+    background-color:transparent;
+    position: absolute;
+    font-size:20px; 
+   top: calc(50% - 10px); 
+   left: 0;
+   text-align: center; 
+   width: 100%; 
+}
+
+#Timer{
+    font-family: 'Nova Mono', serif;
+    text-shadow: 0px 0px 20px;
+    position: absolute;
+    color:white;
+    font-size:50px; 
+   top: calc(50% - 35px); 
+   left: 0;
+   text-align: center; 
+   width: 100%; 
+}
+
+#BombNumIcon{
+    position:relative;
+    max-width:100%;
+    height:auto;
+}
+
+#Clock{
+    position:relative;
+}
+
+#refreshIcon{
+
+}
+
+#easy:hover{
+    color:green;
+    cursor:pointer;
+}
+
+#medium:hover{
+    color:orange;
+    cursor:pointer;
+}
+
+#hard:hover{
+    color:red;
+    cursor:pointer;
+}
+
+#lightTheme:hover{
+    color:white;
+    cursor:pointer;
+}
+
+#darkTheme:hover{
+    color:black;
+    cursor:pointer;
+}
+
+#BlueTheme:hover{
+    color:royalblue;
+    cursor:pointer;
+}
+
+#congratulation{
+    width:40px;
+    height:auto;
+}
+
+#close{
+    width:80px;
+    height:auto;
+}
+
+@media (max-width: 768px) {
+  .btn {
+     padding:0;
+     width: 20px;
+     height: 20px;
+  }
+  #MainTable{
+      border-spacing:2px;
+  }
+  .imageOnBoard{
+    width:18px;
+    height:auto;
+  } 
+  #Timer{
+      font-size:20px; 
+   top: calc(50% - 15px);
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+     padding:0;
+     width: 20px;
+     height: 20px;
+  }
+  #MainTable{
+      border-spacing:2px;
+  }
+  .imageOnBoard{
+    width:18px;
+    height:auto;
+  }
+  #Timer{
+      font-size:30px; 
+   top: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    padding:0;
+    width: 24px;
+    height: 24px;
+  }
+  #MainTable{
+      border-spacing:4px;
+  }
+  .imageOnBoard{
+    width:22px;
+    height:auto;
+  }
+  #Timer{
+      font-size:40px; 
+   top: calc(50% - 25px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:0;
+    width: 32px;
+    height: 32px;
+
+  }
+  #MainTable{
+    border-spacing:4px;
+  }
+  .imageOnBoard{
+    width:30px;
+    height:auto;
+  }
+  #Timer{
+      font-size:50px; 
+   top: calc(50% - 35px);
+  }
+}
+
+
+
+
+
+
+
+
+
+

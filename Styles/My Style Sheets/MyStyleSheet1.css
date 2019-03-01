@@ -1,0 +1,33 @@
+﻿body {
+    background: linear-gradient(to bottom right, #003366,  #4FD5D6, #003366);
+    background-attachment:fixed;
+}
+
+.Icon{
+  overflow: hidden;
+  margin:30px auto;
+  width:70%;
+}
+
+.Icon:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#MineDiv{
+  border-radius:50%;
+}
+
+#MineDiv img{
+    border-radius:50%;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+#MineDiv:hover{
+}
+
+#MineDiv:hover img{
+  transform: scale(1.3);
+}
+
