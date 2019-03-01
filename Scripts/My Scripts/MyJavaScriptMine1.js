@@ -171,8 +171,11 @@ function IdentifyTheButton(r, c, event) {
         }
         else if (Map[r][c] == -1) {
             // Mine Explosion
-            bombExplosion = setInterval(bomb_explosion, 300);
-            //GameOver();
+
+            RestartEnable = false;
+            document.getElementById("G_O").play();
+            GameOver();
+            RestartEnable = true;
             game_runing = false;
         }
         else if (Map[r][c] != 100) {
@@ -401,12 +404,6 @@ function n(n) {
     return n > 9 ? "" + n : "0" + n;
 }
 
-function bomb_explosion() {
-        RestartEnable = false;
-        document.getElementById("G_O").play();
-        GameOver();
-        RestartEnable = true;     
-}
 
 function Congratulation() {
     clearInterval(clock);
