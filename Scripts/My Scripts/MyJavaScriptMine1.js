@@ -402,26 +402,10 @@ function n(n) {
 }
 
 function bomb_explosion() {
-    RestartEnable = false;
-    if (bombsoundcount ==0) {
-        document.getElementById("beep").play();
-    }
-    else if (bombsoundcount == 1) {
-        document.getElementById("beep2").play();
-    }
-    else if (bombsoundcount == 2) {
-        document.getElementById("beep3").play();
-    }
-    else if (bombsoundcount == 3) {
-        document.getElementById("bomb-explosion").play();
-    }
-    else {
-        clearInterval(bombExplosion);
+        RestartEnable = false;
+        document.getElementById("G_O").play();
         GameOver();
-        RestartEnable = true;
-
-    }
-    bombsoundcount++;
+        RestartEnable = true;     
 }
 
 function Congratulation() {
