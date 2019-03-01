@@ -219,6 +219,15 @@
   }
 }
 
+#mechIcon{
+  background-image: url(/Images/Mench0.png);
+  background-image: url(/Images/Mench1.png);
+}
+
+#MineIcon{
+  background-image: url(/Images/Bomb1.png);
+  background-image: url(/Images/Bomb2.png);
+}
 
 
 
