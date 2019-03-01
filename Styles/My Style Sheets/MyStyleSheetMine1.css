@@ -173,6 +173,25 @@
   .imageOnBoard{
     width:22px;
     height:auto;
+    background-image: url(../../Images/MineGame/Qmark.png);
+    background-image: url(../../Images/MineGame/bomb.png);
+    background-image: url(../../Images/MineGame/clock.png);
+    background-image: url(../../Images/MineGame/flagB.png);
+    background-image: url(../../Images/MineGame/flagG.png);
+    background-image: url(../../Images/MineGame/flagR.png);
+    background-image: url(../../Images/MineGame/freeBomb.png);
+    background-image: url(../../Images/MineGame/Numbers/1.png);
+    background-image: url(../../Images/MineGame/Numbers/2.png);
+    background-image: url(../../Images/MineGame/Numbers/3.png);
+    background-image: url(../../Images/MineGame/Numbers/4.png);
+    background-image: url(../../Images/MineGame/Numbers/5.png);
+    background-image: url(../../Images/MineGame/Numbers/6.png);
+    background-image: url(../../Images/MineGame/Numbers/7.png);
+    background-image: url(../../Images/MineGame/Numbers/8.png);
+    background-image: url();
+
+
+
   }
   #Timer{
       font-size:40px; 
