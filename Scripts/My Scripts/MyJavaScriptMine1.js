@@ -307,7 +307,7 @@ function timer() {
     }
     else {
         clearInterval(clock);
-        bombExplosion = setInterval(bomb_explosion, 300);
+        bombExplosion();
     }
 }
 
