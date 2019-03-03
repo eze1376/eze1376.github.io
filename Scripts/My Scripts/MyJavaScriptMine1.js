@@ -147,7 +147,7 @@ function Surf(A, r, c) {
 	    //document.getElementById("MainTable").rows[r].cells[c].classList.remove("btn-light");
 	    document.getElementById("MainTable").rows[r].cells[c].classList.add("number");
 	    document.getElementById("MainTable").rows[r].cells[c].classList.add("p-0");
-        document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../../Images/MineGame/Numbers/" + Map[r][c] + ".png");
+        document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../Images/MineGame/Numbers/" + Map[r][c] + ".png");
 
 
 		A[r][c] = 100;
@@ -202,7 +202,7 @@ function IdentifyTheButton(r, c, event) {
             //document.getElementById("MainTable").rows[r].cells[c].classList.remove("btn-light");
             document.getElementById("MainTable").rows[r].cells[c].classList.add("number");
             document.getElementById("MainTable").rows[r].cells[c].classList.add("p-0");
-            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../../Images/MineGame/Numbers/" + Map[r][c] + ".png");
+            document.getElementById("MainTable").rows[r].cells[c].childNodes[0].setAttribute("src", "../Images/MineGame/Numbers/" + Map[r][c] + ".png");
             Map[r][c] = 100;
         }
 
@@ -432,6 +432,14 @@ function Congratulation() {
 }
 
 $(document).ready(function () {
+    var name = window.localStorage.getItem("Name");
+    if(name=="_miss_mti"){
+        document.getElementById("win").play();
+        $('#myModal').modal('show');
+        $("#modalText").text("You Win The Heart Of Erfan :D" );
+        name = "My Love, Welcome Dear :)";
+    }
+    $("#welcome_name").text("Hi "+ name);
     $("#MainTable").ready(function () {
         document.getElementById("easy").style.color = "green";
         document.getElementById("darkTheme").style.color = "black";

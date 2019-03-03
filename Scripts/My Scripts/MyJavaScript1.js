@@ -18,4 +18,14 @@
     $("#MineIcon").mouseleave(function () {
         $('#MineIcon').attr("src", "Images/Bomb1.png");
     });
+
+    $("#MineIcon").click(function(){
+        $('#modalEnterText').modal('show');
+    });
+
+    $("#start_findTheMine").click(function(){
+        var name = $("#welcomeModal").val();
+        window.localStorage.setItem("Name", name);
+        window.open("Htmls/FindTheMine.html", "_self");
+    });
 });
