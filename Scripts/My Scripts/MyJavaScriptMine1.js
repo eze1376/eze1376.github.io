@@ -432,8 +432,7 @@ function Congratulation() {
 }
 
 $(document).ready(function () {
-    $(".footerHTML").load("footer.html");
-    $("#myProfile").attr("src", "../Images/Profile.jpg");
+    $(".footerHTML").load("/Htmls/footer.html");
     var name = window.localStorage.getItem("Name");
     if(name=="_miss_mti"){
         document.getElementById("win").play();
