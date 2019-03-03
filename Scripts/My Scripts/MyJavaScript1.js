@@ -5,6 +5,9 @@
     var img2 = new Image();
     img2.src = "Images/Bomb2.png";
 
+    var img_profile = new Image();
+    img_profile.src = "Images/profile.jpg";
+
     $("#menchIcon").mouseover(function () {
         $('#menchIcon').attr("src", img.src);
     });
@@ -28,4 +31,7 @@
         window.localStorage.setItem("Name", name);
         window.open("Htmls/FindTheMine.html", "_self");
     });
+    $(".footerHTML").load("Htmls/footer.html");
+    $("#myProfile").attr("src", img_profile.src);
+
 });
