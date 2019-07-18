@@ -434,12 +434,6 @@ function Congratulation() {
 $(document).ready(function () {
     $(".footerHTML").load("/Htmls/footer.html");
     var name = window.localStorage.getItem("Name");
-    if(name=="_miss_mti"){
-        document.getElementById("win").play();
-        $('#myModal').modal('show');
-        $("#modalText").text("You Win The Heart Of Erfan :D" );
-        name = "My Love, Welcome Dear :)";
-    }
     $("#welcome_name").text("Hi "+ name);
     $("#MainTable").ready(function () {
         document.getElementById("easy").style.color = "green";
