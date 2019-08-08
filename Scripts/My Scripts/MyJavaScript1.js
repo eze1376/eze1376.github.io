@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     var img=new Image();
-    img.src="Images/Mench1.png";
+    img.src="Images/Soduku3.png";
 
     var img2 = new Image();
     img2.src = "Images/Bomb2.png";
@@ -8,11 +8,11 @@
     var img_profile = new Image();
     img_profile.src = "Images/profile.jpg";
 
-    $("#menchIcon").mouseover(function () {
-        $('#menchIcon').attr("src", img.src);
+    $("#SudokuIcon").mouseover(function () {
+        $('#SudokuIcon').attr("src", img.src);
     });
-    $("#menchIcon").mouseleave(function () {
-        $('#menchIcon').attr("src", "Images/Mench0.png");
+    $("#SudokuIcon").mouseleave(function () {
+        $('#SudokuIcon').attr("src", "Images/Soduku2.png");
     });
 
     $("#MineIcon").mouseover(function () {

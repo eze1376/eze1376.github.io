@@ -18,3 +18,5 @@ C:\Users\Erfan\Documents\Visual Studio 2015\Projects\Mine_Mench\Mine_Mench\bin\M
 C:\Users\Erfan\Documents\Visual Studio 2015\Projects\Mine_Mench\Mine_Mench\obj\Debug\Mine_Mench.dll
 C:\Users\Erfan\Documents\Visual Studio 2015\Projects\Mine_Mench\Mine_Mench\obj\Debug\Mine_Mench.pdb
 C:\Users\Erfan\Documents\Visual Studio 2015\Projects\Mine_Mench\Mine_Mench\obj\Debug\Mine_Mench.csprojResolveAssemblyReference.cache
+F:\Erfan\Projects\GitHub\Mineswiper\eze1376.github.io\obj\Debug\Mine_Mench.dll
+F:\Erfan\Projects\GitHub\Mineswiper\eze1376.github.io\obj\Debug\Mine_Mench.pdb
