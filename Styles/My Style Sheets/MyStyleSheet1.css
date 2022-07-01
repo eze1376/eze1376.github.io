@@ -29,6 +29,14 @@
   transform: scale(1.3);
 }
 
+#COUPDiv{
+  border-radius: 30%;
+}
+
+#COUPDiv img{
+  border-radius: 30%;
+}
+
 #welcomeModal{
   width: 130px;
   box-sizing: border-box;
