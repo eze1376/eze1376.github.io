@@ -35,6 +35,12 @@
 
 #COUPDiv img{
   border-radius: 30%;
+  -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+#COUPDiv:hover img{
+  transform: scale(1.15);
 }
 
 #welcomeModal{
