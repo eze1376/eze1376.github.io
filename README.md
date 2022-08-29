@@ -2,4 +2,4 @@
 
 + ## Mineswiper
 + ## Sudoku Solver
-+ ### My CV
++ ### [My CV](https://github.com/eze1376/curriculum-vitae/blob/main/ErfanZekriEsfahani_CV.pdf)
