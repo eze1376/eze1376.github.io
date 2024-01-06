@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Certificates</title>
-    <meta name="description" content="Find The Mine or minesweeper Game for fun">
+    <!-- <meta name="description" content="Find The Mine or minesweeper Game for fun">
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="../Scripts/JQuery/jquery-3.3.1.js"></script>
-    <link href="../Styles/Bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="../Styles/Bootstrap/bootstrap.css" rel="stylesheet" /> -->
     <link href="../Styles/My Style Sheets/MyStyleSheetMine1.css" rel="stylesheet" />
     <link href="../Styles/My Style Sheets/FooterStyleSheet.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,6 +26,7 @@
         /* Hide the images by default */
         .mySlides {
             display: none;
+            
         }
 
         /* Next & previous buttons */
@@ -188,7 +189,7 @@
 
         <!-- Certificate 10 -->
         <div class="mySlides fade">
-            <div class="numbertext">10 / 10۷</div>
+            <div class="numbertext">10 / 10</div>
             <img src="https://api2.sololearn.com/v2/certificates/CT-VIXO3XG6/image/png" style="width: 100%;">
             <div class="text">
                 <a href="https://www.sololearn.com/certificates/CT-VIXO3XG6">Certificate Three</a>
@@ -250,10 +251,12 @@
         showSlides(slideIndex = n);
     }
 
+    currentSlide(slideIndex);
+
     // Automatically advance slides every 3 seconds
     setInterval(() => {
         plusSlides(1);
-    }, 10000);
+    }, 5000);
     </script>
     
 </body>
